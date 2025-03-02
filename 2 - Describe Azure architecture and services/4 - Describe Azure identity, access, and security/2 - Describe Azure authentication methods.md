@@ -26,6 +26,8 @@
   - Passwords alone: **Low security, high convenience**.
   - Password + 2FA: **High security, low convenience**.
   - Passwordless: **High security, high convenience**.
+ 
+![AuthMethods](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-identity-access-security/media/passwordless-convenience-security-30321b4d-18aa7d73.png)
 
 ---
 
