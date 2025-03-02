@@ -1,5 +1,5 @@
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 # **Azure Storage Account**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 A **storage account** provides a unique namespace for your Azure Storage data that’s accessible from anywhere over HTTP or HTTPS. The data is secure, highly available, durable, and massively scalable.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**  
@@ -8,8 +8,8 @@ A **storage account** provides a unique namespace for your Azure Storage data th
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 # **Choosing Storage Account Types**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 When you create a storage account, the **account type** determines which services and **redundancy options** are available.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**  
@@ -38,9 +38,9 @@ When you create a storage account, the **account type** determines which service
 | **Premium Page Blobs**       | Page Blobs only                                                  | LRS                                          | For applications needing page blobs.                                                    |
 
 ---
-
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
+  
 # **Naming Your Storage Account**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 When naming your storage account:  
 - It must be between 3 and 24 characters long.  
 - It can only contain numbers and lowercase letters.  
