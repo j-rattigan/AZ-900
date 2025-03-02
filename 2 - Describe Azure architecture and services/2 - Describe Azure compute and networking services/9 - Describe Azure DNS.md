@@ -1,5 +1,5 @@
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 # **Azure DNS**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 Azure DNS is a hosting service for DNS domains, providing name resolution using **Microsoft Azure** infrastructure. You can manage your DNS records using the same credentials, APIs, tools, and billing as your other Azure services.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**  
@@ -8,8 +8,8 @@ Azure DNS is a hosting service for DNS domains, providing name resolution using 
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 # **Benefits of Azure DNS**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 1. **Reliability & Performance**  
 2. **Security**  
 3. **Ease of Use**  
@@ -41,8 +41,8 @@ Azure DNS is built on **Azure Resource Manager (ARM)** and provides:
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 # **Limitations of Azure DNS**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 Azure DNS does **not** allow you to **buy a domain name** directly. You can purchase a domain through App Service Domains or a third-party registrar, then host it in Azure DNS for record management.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**  
