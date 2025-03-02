@@ -1,8 +1,7 @@
 # **Identify Azure File Movement Options**  
-
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 Azure provides tools for moving **individual files** or **small file groups**, complementing large-scale migration solutions like **Azure Migrate** and **Azure Data Box**.
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 Azure offers three key tools for moving files:  
 - **AzCopy** (Command-line tool for file transfers)  
 - **Azure Storage Explorer** (GUI-based storage management)  
