@@ -1,5 +1,5 @@
+# Azure Functions Overview
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Azure Functions Overview
 - **Azure Functions** is an **event-driven**, **serverless compute** option.
 - Unlike **VMs** or **containers**, there’s no need to keep resources running when not in use.
 - **Functions** are triggered by events, and resources are automatically deallocated when finished.
@@ -17,8 +17,8 @@
 - Example of **event-driven** trigger: A **REST request** starts the function, which runs quickly (in seconds) and then **shuts down** after completion.
 - Functions can be **stateless** (restart on each event) or **stateful** (with context passed between events).
 
+# Benefits of Azure Functions
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Benefits of Azure Functions
 - **Serverless model** means no need to maintain infrastructure.
 - Functions are perfect for **quick tasks** like responding to events, timers, or messages from other Azure services.
 - **Automatic scaling** ensures that functions handle variable demand with ease.
@@ -36,8 +36,8 @@
 - If you need **workflow management**, **Durable Functions** (stateful) are ideal for tracking tasks over time.
 - With **serverless**, you **only pay** for time spent executing the function, reducing costs.
   
+# Flexibility of Azure Functions
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Flexibility of Azure Functions
 - **Azure Functions** can easily transition from a serverless environment to other environments, like **virtual networks**, for more control over scaling and isolation.
 - **Functions** are **general-purpose** and can run **any code**, providing flexibility based on the app's needs.
 
