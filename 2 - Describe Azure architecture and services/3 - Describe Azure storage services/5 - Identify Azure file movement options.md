@@ -9,20 +9,19 @@ Azure offers three key tools for moving files:
 
 ---
 
-## **AzCopy**  
-AzCopy is a **command-line tool** used for copying files or blobs to/from Azure storage.
+## **AzCopy** 
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
+- AzCopy is a **command-line tool** used for copying files or blobs to/from Azure storage.
+- **AzCopy does NOT support two-way synchronization.** It only copies files in **one direction** based on the source and destination.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**  
 - **File transfer** – Upload, download, copy, or sync files between storage accounts.  
 - **Cross-cloud support** – Can move files between **Azure and other cloud providers**.  
 - **One-way synchronization** – Files sync **only in one direction**, from source to destination.  
-
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
-- **AzCopy does NOT support two-way synchronization.** It only copies files in **one direction** based on the source and destination.  
-
 ---
 
-## **Azure Storage Explorer**  
+## **Azure Storage Explorer**
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 Azure Storage Explorer is a **graphical application** for managing files and blobs in an Azure Storage Account.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**  
@@ -35,7 +34,8 @@ Azure Storage Explorer is a **graphical application** for managing files and blo
 
 ---
 
-## **Azure File Sync**  
+## **Azure File Sync** 
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 Azure File Sync allows **Windows file servers** to sync with **Azure Files**, maintaining performance and compatibility.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**  
