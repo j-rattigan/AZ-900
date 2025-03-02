@@ -24,6 +24,8 @@ Understanding this hierarchy will help you organize your projects and products w
 - **Action on Resource Group**: Deleting a resource group deletes all its resources.
 - **Access Control**: Granting or denying access to a resource group applies to all resources within it.
 
+![ResourceGroups](https://learn.microsoft.com/en-us/training/wwl-azure/describe-core-architectural-components-of-azure/media/resource-group-eb2d7177-ff67d816.png)
+
 ---
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**
@@ -44,6 +46,8 @@ Understanding this hierarchy will help you organize your projects and products w
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - You can create additional subscriptions to separate environments like **development**, **production**, or for **compliance** reasons.
 - **Separate Subscriptions for Billing**: Different subscriptions can be used for managing costs, e.g., one for **production** workloads and another for **development**.
+    - 
+![Subscriptions](https://learn.microsoft.com/en-us/training/wwl-azure/describe-core-architectural-components-of-azure/media/subscriptions-d415577b-04961c4b.png)
 
 ---
 
@@ -63,6 +67,8 @@ Understanding this hierarchy will help you organize your projects and products w
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - **Policy Inheritance**: A policy (like limiting VM locations to a region) will automatically apply to all subscriptions within a management group.
 - **User Access**: Azure RBAC (Role-Based Access Control) assigned at the management group level will apply to all resources below it.
+
+![ManagementGroups](https://github.com/user-attachments/assets/b1bc8adc-4996-4c79-92ba-4b7173906dce)
 
 ---
 
