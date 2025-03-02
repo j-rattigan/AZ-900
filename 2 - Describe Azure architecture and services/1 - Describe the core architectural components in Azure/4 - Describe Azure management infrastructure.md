@@ -1,6 +1,6 @@
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
+# Azure Management Infrastructure Overview
 
-### Azure Management Infrastructure Overview
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 The Azure management infrastructure includes **Azure resources**, **resource groups**, **subscriptions**, and **accounts**.  
 Understanding this hierarchy will help you organize your projects and products within Azure.
 
@@ -13,9 +13,8 @@ Understanding this hierarchy will help you organize your projects and products w
 
 ---
 
+## Resource Groups
 #### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-
-### Resource Groups
 - When you create a resource, you place it into a **resource group**.
 - A **resource** can only belong to **one** resource group at a time. You can move it between groups, but it will no longer be in the original group.
 - **Resource groups cannot be nested**.
@@ -37,9 +36,8 @@ Understanding this hierarchy will help you organize your projects and products w
 
 ---
 
+## Subscriptions
 #### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-
-### Subscriptions
 - **Azure subscription** links to an **Azure account** for identity and authorization (via **Microsoft Entra ID**).
 - An account can have **multiple subscriptions** for different purposes (e.g., different billing models, resource access policies).
 
@@ -57,9 +55,8 @@ Understanding this hierarchy will help you organize your projects and products w
 
 ---
 
+## Management Groups
 #### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-
-### Management Groups
 - **Management groups** are used to organize **subscriptions**. 
 - Policies applied to a **management group** affect all subscriptions and resources underneath it.
 - **Nested Management Groups**: You can nest management groups up to 6 levels deep.
@@ -72,9 +69,8 @@ Understanding this hierarchy will help you organize your projects and products w
 
 ---
 
+## Key Facts About Management Groups
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-
-### Key Facts About Management Groups
 - **Up to 10,000 management groups** can be supported in a single directory.
 - **Management groups** can have up to **6 levels of nesting**.
 - Each management group and subscription can only have **one parent**.
