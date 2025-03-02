@@ -1,5 +1,5 @@
+# Azure Containers
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Azure Containers
 - Containers are a **lightweight virtualization environment** that allow you to run multiple instances of an application on a **single host**.
 - Unlike virtual machines, you **don’t manage the operating system** for containers.
 - **Containers** are agile and designed for **scaling out**, **stopping dynamically**, and responding to changes **on demand**.
@@ -18,8 +18,8 @@
 - **Virtual Machines** vs. **Containers**: VMs require managing the **operating system**, while containers are more **dynamic** and efficient.
 - **Azure Containers** are great for running applications without the need to manage **VMs** or additional services.
 
+# Azure Container Instances
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Azure Container Instances
 - **Azure Container Instances (ACI)** is the simplest way to run a container in Azure.
 - **PaaS offering** that runs containers for you without managing VMs.
 - **No need for additional services** – upload your container and let ACI handle it.
@@ -34,8 +34,8 @@
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - You can upload your **containers**, and **ACI runs** them for you, making it easy to get started quickly.
 
+# Azure Container Apps
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Azure Container Apps
 - **Azure Container Apps** provide similar benefits to **ACI**.
 - **PaaS offering** that allows you to get running quickly and eliminates container management.
 - Added benefits include **load balancing** and **scaling**, making your design more **elastic**.
@@ -49,8 +49,8 @@
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - **Load balancing** and **scaling** enhance the flexibility of containerized applications.
 
+# Azure Kubernetes Service (AKS)
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Azure Kubernetes Service (AKS)
 - **AKS** is a **container orchestration service**.
 - It **manages the lifecycle** of containers, making it easier to deploy and manage large fleets of containers.
 
@@ -64,8 +64,8 @@
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - **Lifecycle management**: AKS handles the **deployment, scaling, and updates** of containers in large applications.
 
+# Containers in Microservice Architecture
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Containers in Microservice Architecture
 - Containers are perfect for **microservice architecture**, where solutions are broken into **smaller, independent pieces**.
 - Example: You can **split a website** into containers for **front end**, **back end**, and **storage**.
 
