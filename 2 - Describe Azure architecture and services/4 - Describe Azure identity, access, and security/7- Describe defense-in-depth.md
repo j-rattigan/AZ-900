@@ -3,38 +3,25 @@
 Defense-in-depth is a **layered security strategy** that protects information by **slowing attacks and preventing unauthorized access**.
 
 ---
+# Defense-in-Depth Overview
 
 ## **Why is Defense-in-Depth Important?**  
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
-🔹 **Prevents unauthorized access to data**  
-🔹 **Uses multiple security layers** – If one layer is breached, another protects against further exposure.  
-🔹 **Reduces reliance on a single security measure**  
-🔹 **Provides alerts** for security teams to respond to threats.  
+| **Category** | **Details** |
+|--------------|-------------|
+| ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | 🔹 Prevents unauthorized access to data <br> 🔹 Uses multiple security layers – If one layer is breached, another protects against further exposure. <br> 🔹 Reduces reliance on a single security measure <br> 🔹 Provides alerts for security teams to respond to threats. |
+| ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions** | - **Defense-in-Depth**: A security strategy using multiple layers of protection to prevent attacks. <br> - **Layered Security**: Each layer has its own security controls, protecting data at the center. <br> - **Least Privilege Access**: Users and systems get only the access they need to perform their tasks. <br> - **DDoS Protection**: Defends against large-scale attacks that could disrupt services. |
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important** | **Layers of Security** (from outer to inner): |
 
 ---
 
-## **What is Defense-in-Depth?**  
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**  
-
-- **Defense-in-Depth** – A security strategy using **multiple layers of protection** to prevent attacks.  
-- **Layered Security** – Each layer has its own security controls, **protecting data at the center**.  
-- **Least Privilege Access** – Users and systems get **only the access they need** to perform their tasks.  
-- **DDoS Protection** – **Defends against large-scale attacks** that could disrupt services.  
-
----
-
-## **Layers of Defense-in-Depth**  
-
+## **Layers of Defense-in-Depth**
+![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
 Defense-in-depth is **visualized as layers**, with **data at the center** and other security layers protecting it.
 
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**  
-
-**Layers of Security (from outer to inner):**
-| 1️⃣ **Physical Security** – Protects **buildings and hardware**. <br> 2️⃣ **Identity & Access** – Manages **user authentication and access control**. <br> 3️⃣ **Perimeter Security** – Uses **firewalls and DDoS protection** to stop large attacks. <br> 4️⃣ **Network Security** – **Limits internal communication** to stop attacks from spreading. <br> 5️⃣ **Compute Security** – Protects **virtual machines and devices** from malware and vulnerabilities. <br> 6️⃣ **Application Security** – Ensures **secure app development** with encryption and best practices. <br> 7️⃣ **Data Security** – **Controls access to sensitive business and customer data**.  | ![DefinDepth](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-identity-access-security/media/defense-depth-486afc12-71a03f12.png)|
-|----------------------------------------------|-----------------------------------------------|
-
+| **Category** | **Details** |
+|--------------|-------------|
+| ![DefinDepth](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-identity-access-security/media/defense-depth-486afc12-71a03f12.png) | **Layers of Security** (from outer to inner): <br> 1️⃣ **Physical Security** – Protects **buildings and hardware**. <br> 2️⃣ **Identity & Access** – Manages **user authentication and access control**. <br> 3️⃣ **Perimeter Security** – Uses **firewalls and DDoS protection** to stop large attacks. <br> 4️⃣ **Network Security** – **Limits internal communication** to stop attacks from spreading. <br> 5️⃣ **Compute Security** – Protects **virtual machines and devices** from malware and vulnerabilities. <br> 6️⃣ **Application Security** – Ensures **secure app development** with encryption and best practices. <br> 7️⃣ **Data Security** – **Controls access to sensitive business and customer data**. |
 
 ---
 
