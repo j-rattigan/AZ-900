@@ -1,5 +1,5 @@
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 # **Azure Virtual Private Networks (VPNs)**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 A **VPN** uses an encrypted tunnel within another network, typically the public internet. It connects **trusted private networks** securely over an **untrusted** network to safely share sensitive information.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
@@ -14,8 +14,8 @@ A **VPN** uses an encrypted tunnel within another network, typically the public 
 - **Policy-based VPN**: Static IP addresses define which packets are encrypted.
 - **Route-based VPN**: Uses IP routing to decide how to route packets based on routing protocols.
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 # **VPN Gateway Connectivity**
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 - **Site-to-Site**: Connects on-premises datacenters to virtual networks.
 - **Point-to-Site**: Connects individual devices to virtual networks.
 - **Network-to-Network**: Connects virtual networks to each other.
@@ -32,8 +32,8 @@ A **VPN** uses an encrypted tunnel within another network, typically the public 
 - **ExpressRoute failover**: In case of **ExpressRoute** issues, a **VPN gateway** can serve as a backup using the internet to ensure continuous connectivity.
 - **Zone-redundant gateways**: In availability zones, VPN and ExpressRoute gateways are deployed in multiple zones for **resiliency** and **scalability**.
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 # **High-Availability VPN Configurations**
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 1. **Active/Standby**: One active gateway and one standby for automatic failover.
 2. **Active/Active**: Multiple active gateways, allowing for **redundancy** and **better availability**.
 
