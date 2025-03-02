@@ -1,58 +1,21 @@
 # Define cloud models
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-- Cloud models define how cloud resources are deployed.
-- The three main cloud models are **Private Cloud**, **Public Cloud**, and **Hybrid Cloud**.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-
-- **Private Cloud**: A cloud environment used by a single entity for greater control.
-- **Public Cloud**: Cloud services built, controlled, and maintained by third-party providers.
-- **Hybrid Cloud**: A mix of private and public clouds, offering flexibility and extra security.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- **Private Cloud**: 
-    - Used by one entity.
-    - Offers more control but higher costs.
-    - Can be hosted on-site or off-site by third-party providers.
-  
-- **Public Cloud**:
-    - Available to the general public.
-    - Built and maintained by third-party cloud providers.
-    - No capital expenditure needed, pay-as-you-go model.
-
-- **Hybrid Cloud**:
-    - Combines both private and public clouds.
-    - Used for increased demand or extra security.
-    - Organizations choose which services run in the public vs. private cloud.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **Private Cloud**: Offers complete control but requires investment in hardware and maintenance.
-- **Public Cloud**: No initial investment, but lacks full control over resources and security.
-- **Hybrid Cloud**: Most flexibility, letting companies decide where to run their applications.
-  
----
-
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-- **Multi-cloud**: Using multiple public cloud providers simultaneously.
-    - Used when different cloud providers offer different features or for migration purposes.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **Azure Arc**: Technologies for managing multi-cloud, hybrid, and on-prem environments.
-- **Azure VMware Solution**: Allows VMware workloads to run seamlessly in Azure.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- **Azure Arc**:
-    - Helps manage diverse cloud environments.
-    - Works with public, private, hybrid, or multi-cloud setups.
-
-- **Azure VMware Solution**:
-    - Facilitates migration from VMware to Azure.
-    - Ensures smooth integration and scalability for workloads.
+### **Cloud Models**  
+Cloud models define the **deployment type** of cloud resources. The three main cloud models are: **private**, **public**, and **hybrid**.
 
 ---
 
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **Private Cloud** requires **capital investment** for hardware and resources.
-- **Public Cloud** allows quick **scalability** with minimal upfront costs.
-- **Hybrid Cloud** provides **flexibility** but involves managing both environments.
+### **Private Cloud** 
+| Model | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions:** | ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples:** |
+|----------|----------|----------|----------|
+| **Private Cloud**  | - Used by a **single entity** (organization, company). <br> - Offers **greater control** over IT services, but comes with **higher costs** and **fewer benefits**  compared to public clouds.  <br> | - A cloud dedicated to a single company or entity. <br> - More expensive than public clouds due to dedicated resources. | - Can be **hosted** in your **own data center** or a **dedicated third-party** data center. |
+| **Public Cloud** | - **Public cloud** is **managed by a third-party provider** and is available for **anyone** to use. | - Accessible by anyone; services are **provided** by third parties (like Microsoft, AWS, Google Cloud). <br> - **Public availability**: The key difference between public and private clouds. | - Public clouds offer **scalable resources** for anyone who wants to buy cloud services. |
+| **Hybrid Cloud** | integrates both **private** and **public** clouds, providing flexibility and security. | - **Hybrid cloud**: Combines **private** and **public clouds** for a **flexible** environment. <br> - **Extra security**: Users decide what services to keep private and which to place in the public cloud. | - If there's **increased demand** for a temporary period, a **private cloud** can surge by using **public cloud** resources. |
+| **Multi-cloud** | - Uses multiple **public cloud providers**. | - Managing cloud resources from **two or more providers** simultaneously. | - A company might use **AWS** for storage and **Azure** for computing resources. |
+
+### **Other**   
+
+| Model | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important:**    |
+|----------|----------|
+| **Azure Arc** | - Helps manage **cloud environments** across **public**, **private**, and **multi-cloud** settings. |
+| **Azure VMware Solution** | -  enables running VMware workloads seamlessly in **Azure**. |
