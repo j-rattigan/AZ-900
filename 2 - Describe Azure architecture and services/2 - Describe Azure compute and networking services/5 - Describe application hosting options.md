@@ -1,5 +1,5 @@
+# Application Hosting Options in Azure
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Application Hosting Options in Azure
 - **Virtual Machines (VMs)** and **Containers** are common hosting solutions on Azure.
 - **VMs** offer **maximum control** over the environment.
 - **Containers** provide **isolation** and **individual management** of hosting components.
@@ -20,8 +20,8 @@
 - You can choose between **Windows** or **Linux** for hosting your apps.
 - App Service is a **fully managed platform**, so you focus on your app, not the infrastructure.
 
+# Types of Azure App Services
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Types of Azure App Services
 - **Web Apps**: Host websites and web applications with support for multiple languages and frameworks.
 - **API Apps**: Build and host RESTful APIs with full Swagger support.
 - **WebJobs**: Run background tasks like scripts or programs in the same environment as your app.
@@ -43,8 +43,8 @@
 - **WebJobs** allow you to run **scripts** or **programs** as part of your application, such as scheduled background tasks.
 - **Mobile Apps** feature quick back-end setups for **iOS** and **Android**, including **authentication** and **push notifications**.
 
+# Benefits of Azure App Service
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Benefits of Azure App Service
 - **Integrated deployment** and **management** of web apps, APIs, and mobile apps.
 - **Scaling** to handle increased traffic, with built-in **load balancing** and **traffic management**.
 - **High availability** due to automatic scaling and availability features.
