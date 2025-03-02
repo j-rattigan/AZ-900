@@ -12,16 +12,10 @@ The **Shared Responsibility Model** defines the division of responsibilities bet
 - **Consumer**: The user or organization using cloud services, responsible for managing the data, access security, and some infrastructure components.
 
 #### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- Cloud providers are responsible for: 
-  - Physical security
-  - Power and cooling
-  - Network connectivity
-  - The physical datacenter and network infrastructure
 
-- Consumers are responsible for:
-  - Data stored in the cloud
-  - Managing access security (who can access what)
-  - Devices that connect to the cloud (e.g., phones, computers)
+| Cloud providers are responsible for | Consumers are responsible for |
+|----------|----------|
+| - Physical security <br> - Power and cooling <br> - Network connectivity <br>- The physical datacenter and network infrastructure | - Data stored in the cloud <br> - Managing access security (who can access what) <br> - Devices that connect to the cloud (e.g., phones, computers)|  
 
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - Example: In a traditional data center, your IT department maintains everything, but in the cloud, the provider handles infrastructure, while you handle data and access control.
