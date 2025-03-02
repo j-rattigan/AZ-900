@@ -1,4 +1,4 @@
-### Responsibility Breakdown by Cloud Service Type
+# Responsibility Breakdown by Cloud Service Type
 
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 The responsibility between the cloud provider and consumer changes depending on the cloud service model being used.
