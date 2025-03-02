@@ -1,6 +1,5 @@
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 # Describe Azure storage redundancy
-
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 Azure Storage always stores multiple copies of your data to protect against **planned and unplanned events** like hardware failures, power outages, or disasters. Redundancy ensures **availability** and **durability** even in the face of failures.
 
 When choosing a redundancy option, consider:
@@ -41,8 +40,8 @@ When choosing a redundancy option, consider:
 ![ZRS](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-storage-services/media/zone-redundant-storage.png)
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 ## - **Secondary Region Redundancy**:
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
   - **Geo-Redundant Storage (GRS)**: Replicates data from the primary region to a **secondary region** for **regional disaster protection**.
   - **Geo-Zone-Redundant Storage (GZRS)**: Combines **ZRS** in the primary region and **LRS** in the secondary region for both high availability and protection from regional outages.
 
