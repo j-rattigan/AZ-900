@@ -38,7 +38,7 @@ Conditional Access **collects signals, makes access decisions, and enforces secu
    - **Require MFA** (e.g., second authentication factor).  
    - **Deny** access.  
 
-![CondAccessProcess](![image](https://github.com/user-attachments/assets/e633ed41-69a1-4551-9ed2-0dc782b1959d))
+![CondAccessProcess](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-identity-access-security/media/conditional-access-9bd268b8-757297cb.png)
 
 ---
 
