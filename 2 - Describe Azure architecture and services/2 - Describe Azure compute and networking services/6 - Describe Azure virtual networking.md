@@ -1,6 +1,5 @@
+# Azure Virtual Networking Overview
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-
-### Azure Virtual Networking Overview
 Azure virtual networks enable Azure resources to communicate with each other, users on the internet, and your on-premises resources. Think of it as an extension of your on-premises network.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
@@ -13,9 +12,8 @@ Azure virtual networks enable Azure resources to communicate with each other, us
 
 ---
 
+# Key Networking Capabilities of Azure Virtual Networks
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-
-### Key Networking Capabilities of Azure Virtual Networks
 - **Isolation and segmentation** – Create isolated networks within Azure.
 - **Internet communications** – Enable external communication via public IP addresses.
 - **Internal communication** – Enable secure communication between Azure resources.
@@ -35,9 +33,8 @@ Azure virtual networks enable Azure resources to communicate with each other, us
 
 ---
 
+# How to Connect On-Premises to Azure
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-
-### How to Connect On-Premises to Azure
 Azure allows you to create a hybrid network with your on-premises environment.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
@@ -53,9 +50,8 @@ Azure allows you to create a hybrid network with your on-premises environment.
 
 ---
 
+# Routing and Filtering Network Traffic
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-
-### Routing and Filtering Network Traffic
 Azure allows for traffic management between subnets and between on-premises and Azure.
 
 #### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
@@ -75,5 +71,5 @@ Azure allows for traffic management between subnets and between on-premises and 
 
 ---
 
-### Summary of Azure Virtual Networking
+# Summary of Azure Virtual Networking
 Azure Virtual Networks provide secure and scalable networking capabilities to connect resources both within Azure and with on-premises systems, enabling full control over traffic routing, security, and communication.
