@@ -2,14 +2,6 @@
 
 Conditional Access is a **security tool** in **Microsoft Entra ID** that grants or denies **access** to resources based on **identity signals**.
 
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**  
-- **Conditional Access** – A security tool in Microsoft Entra ID that controls access based on **identity signals**.  
-- **Identity Signals** – Factors like **who** the user is, **where** they are, and **what device** they're using.  
-- **Multifactor Authentication (MFA)** – A security feature that requires **multiple forms of verification** before granting access.  
-- **Enforcement** – The action taken based on access decisions (**allow, deny, or require MFA**).  
-
----
-
 ## **How Conditional Access Works**  
 
 Conditional Access **collects signals, makes access decisions, and enforces security rules**.
@@ -17,7 +9,15 @@ Conditional Access **collects signals, makes access decisions, and enforces secu
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 - **Empowers users** to work from anywhere **securely**.  
 - **Protects** the organization's assets from **unauthorized access**.  
-- **Provides granular MFA control** based on **risk signals**.  
+- **Provides granular MFA control** based on **risk signals**.
+
+- --
+
+#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**  
+- **Conditional Access** – A security tool in Microsoft Entra ID that controls access based on **identity signals**.  
+- **Identity Signals** – Factors like **who** the user is, **where** they are, and **what device** they're using.  
+- **Multifactor Authentication (MFA)** – A security feature that requires **multiple forms of verification** before granting access.  
+- **Enforcement** – The action taken based on access decisions (**allow, deny, or require MFA**).  
 
 ---
 
