@@ -31,16 +31,10 @@ Defense-in-depth is **visualized as layers**, with **data at the center** and ot
 
 #### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**  
 
-🔹 **Layers of Security (from outer to inner):**  
-1️⃣ **Physical Security** – Protects **buildings and hardware**.  
-2️⃣ **Identity & Access** – Manages **user authentication and access control**.  
-3️⃣ **Perimeter Security** – Uses **firewalls and DDoS protection** to stop large attacks.  
-4️⃣ **Network Security** – **Limits internal communication** to stop attacks from spreading.  
-5️⃣ **Compute Security** – Protects **virtual machines and devices** from malware and vulnerabilities.  
-6️⃣ **Application Security** – Ensures **secure app development** with encryption and best practices.  
-7️⃣ **Data Security** – **Controls access to sensitive business and customer data**.  
+**Layers of Security (from outer to inner):**
+| 1️⃣ **Physical Security** – Protects **buildings and hardware**. <br> 2️⃣ **Identity & Access** – Manages **user authentication and access control**. <br> 3️⃣ **Perimeter Security** – Uses **firewalls and DDoS protection** to stop large attacks. <br> 4️⃣ **Network Security** – **Limits internal communication** to stop attacks from spreading. <br> 5️⃣ **Compute Security** – Protects **virtual machines and devices** from malware and vulnerabilities. <br> 6️⃣ **Application Security** – Ensures **secure app development** with encryption and best practices. <br> 7️⃣ **Data Security** – **Controls access to sensitive business and customer data**.  | ![DefinDepth](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-identity-access-security/media/defense-depth-486afc12-71a03f12.png)|
+|----------------------------------------------|-----------------------------------------------|
 
-![DefinDepth](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-identity-access-security/media/defense-depth-486afc12-71a03f12.png)
 
 ---
 
@@ -48,55 +42,28 @@ Defense-in-depth is **visualized as layers**, with **data at the center** and ot
 
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**  
 
-### **🔒 1. Physical Security**  
-🏢 **Protects datacenter buildings and computing hardware.**  
-✅ **Controlled access** to prevent unauthorized entry.  
-✅ **Monitors and secures physical assets** (e.g., servers, storage).  
+<table style="border: 4px solid black; border-collapse: collapse;">
+  <tr>
+    <th style="border: 4px solid black; padding: 8px; text-align: left;">🔒 1. Physical Security</th>
+    <th style="border: 4px solid black; padding: 8px; text-align: left;">🔑 2. Identity & Access Security</th>
+    <th style="border: 4px solid black; padding: 8px; text-align: left;">🌍 3. Perimeter Security</th>
+    <th style="border: 4px solid black; padding: 8px; text-align: left;">📡 4. Network Security</th>
+    <th style="border: 4px solid black; padding: 8px; text-align: left;">💻 5. Compute Security</th>
+    <th style="border: 4px solid black; padding: 8px; text-align: left;">📱 6. Application Security</th>
+    <th style="border: 4px solid black; padding: 8px; text-align: left;">📊 7. Data Security</th>
+  </tr>
+  <tr>
+    <td style="border: 4px solid black; padding: 8px;">🏢 **Protects datacenter buildings and computing hardware.** <br> ✅ **Controlled access** to prevent unauthorized entry. <br> ✅ **Monitors and secures physical assets** (e.g., servers, storage). <br></td>
+    <td style="border: 4px solid black; padding: 8px;">👤 **Manages user authentication and access control.** <br> ✅ **Uses Single Sign-On (SSO) & Multi-Factor Authentication (MFA).** <br> ✅ **Controls access to infrastructure and tracks sign-in events.** <br></td>
+    <td style="border: 4px solid black; padding: 8px;">🛑 **Defends against large-scale network attacks.** <br> ✅ **Uses Distributed Denial of Service (DDoS) protection.** <br> ✅ **Deploys perimeter firewalls to detect malicious traffic.** <br></td>
+    <td style="border: 4px solid black; padding: 8px;">🌐 **Limits communication between resources to reduce attack spread.** <br> ✅ **Deny-by-default approach** – Blocks traffic unless explicitly allowed. <br> ✅ **Restricts internet access** (both inbound & outbound). <br> ✅ **Implements secure connections between cloud and on-premises networks.** <br></td>
+    <td style="border: 4px solid black; padding: 8px;">🖥️ **Protects virtual machines & computing resources.** <br> ✅ **Secures access to VMs.** <br> ✅ **Uses endpoint protection & keeps systems patched.** <br></td>
+    <td style="border: 4px solid black; padding: 8px;">🛠️ **Builds security into the development lifecycle.** <br> ✅ **Ensures apps are free of vulnerabilities.** <br> ✅ **Stores sensitive information securely.** <br></td>
+    <td style="border: 4px solid black; padding: 8px;">🔐 **Protects stored business & customer data.** <br> ✅ **Controls access to databases, storage, and SaaS applications.** <br> ✅ **Ensures regulatory compliance for data protection.** <br></td>
+  </tr>
+</table>
 
----
 
-### **🔑 2. Identity & Access Security**  
-👤 **Manages user authentication and access control.**  
-✅ **Uses Single Sign-On (SSO) & Multi-Factor Authentication (MFA).**  
-✅ **Controls access to infrastructure and tracks sign-in events.**  
-
----
-
-### **🌍 3. Perimeter Security**  
-🛑 **Defends against large-scale network attacks.**  
-✅ **Uses Distributed Denial of Service (DDoS) protection.**  
-✅ **Deploys perimeter firewalls to detect malicious traffic.**  
-
----
-
-### **📡 4. Network Security**  
-🌐 **Limits communication between resources to reduce attack spread.**  
-✅ **Deny-by-default approach** – Blocks traffic unless explicitly allowed.  
-✅ **Restricts internet access** (both inbound & outbound).  
-✅ **Implements secure connections between cloud and on-premises networks.**  
-
----
-
-### **💻 5. Compute Security**  
-🖥️ **Protects virtual machines & computing resources.**  
-✅ **Secures access to VMs.**  
-✅ **Uses endpoint protection & keeps systems patched.**  
-
----
-
-### **📱 6. Application Security**  
-🛠️ **Builds security into the development lifecycle.**  
-✅ **Ensures apps are free of vulnerabilities.**  
-✅ **Stores sensitive information securely.**  
-
----
-
-### **📊 7. Data Security**  
-🔐 **Protects stored business & customer data.**  
-✅ **Controls access to databases, storage, and SaaS applications.**  
-✅ **Ensures regulatory compliance for data protection.**  
-
----
 
 ## **Key Takeaways**  
 
