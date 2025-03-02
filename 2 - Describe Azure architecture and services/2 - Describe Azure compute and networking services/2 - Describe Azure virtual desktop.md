@@ -1,5 +1,5 @@
+# Azure Virtual Desktop (AVD)
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Azure Virtual Desktop (AVD)
 - AVD is a **desktop and application virtualization service** in the cloud.
 - It enables **access to a cloud-hosted version of Windows** from anywhere.
 - Works across **devices** and **operating systems**.
@@ -18,8 +18,8 @@
 - **Granular Role-Based Access Controls (RBAC)** help manage who can access what in AVD.
 - **Isolation of user sessions**: Keeps data secure by separating user apps and data from local hardware, especially important for sensitive data.
 
+## Multi-session Windows 10/11 Deployment
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-### Multi-session Windows 10/11 Deployment
 - **Azure Virtual Desktop** allows **Windows 10/11 Enterprise multi-session**.
 - This is the **only client OS** that enables **multiple concurrent users** on a single VM.
 - Provides a **consistent experience** with broad application support compared to server-based OSs.
