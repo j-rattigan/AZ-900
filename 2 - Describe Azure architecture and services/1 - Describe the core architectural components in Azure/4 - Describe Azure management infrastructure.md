@@ -46,7 +46,7 @@ Understanding this hierarchy will help you organize your projects and products w
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - You can create additional subscriptions to separate environments like **development**, **production**, or for **compliance** reasons.
 - **Separate Subscriptions for Billing**: Different subscriptions can be used for managing costs, e.g., one for **production** workloads and another for **development**.
-    - 
+ 
 ![Subscriptions](https://learn.microsoft.com/en-us/training/wwl-azure/describe-core-architectural-components-of-azure/media/subscriptions-d415577b-04961c4b.png)
 
 ---
