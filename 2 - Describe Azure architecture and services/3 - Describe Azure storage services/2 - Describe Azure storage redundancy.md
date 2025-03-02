@@ -32,10 +32,13 @@ When choosing a redundancy option, consider:
   - **Durability**: 99.999999999% (11 nines).
   - **Use**: Protects against server rack and drive failures, but not regional disasters.
 
+![LRS](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-storage-services/media/locally-redundant-storage.png)
+
 - **Zone-Redundant Storage (ZRS)**:
   - **Durability**: 99.9999999999% (12 nines).
   - **Use**: Suitable for high availability and keeping data within a specific region.
 
+![ZRS](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-storage-services/media/zone-redundant-storage.png)
 ---
 
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
@@ -65,6 +68,7 @@ When choosing a redundancy option, consider:
 
 - **Geo-Redundant Storage (GRS)**: RPO is typically **less than 15 minutes**, but there is no SLA for replication time.
 
+![GRS](https://learn.microsoft.com/en-us/training/wwl-azure/describe-azure-storage-services/media/geo-redundant-storage.png)
 ---
 
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
