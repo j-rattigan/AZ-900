@@ -1,5 +1,5 @@
+# **Azure ExpressRoute**
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
-# **Azure ExpressRoute**  
 Azure ExpressRoute allows you to extend your on-premises network to the Microsoft cloud via a private connection with a provider. This connection is called an **ExpressRoute Circuit**.  
 It provides a faster, more reliable, and secure connection compared to the public internet.
 
@@ -23,8 +23,8 @@ ExpressRoute connections offer:
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 # **Benefits of ExpressRoute**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 - **Direct Connectivity** to Microsoft cloud services, including:  
   - **Microsoft Office 365**
   - **Microsoft Dynamics 365**
@@ -44,8 +44,8 @@ ExpressRoute uses **BGP** for dynamic routing, which adapts to network changes a
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 # **ExpressRoute Connectivity Models**  
+#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
 1. **CloudExchange Colocation:** Your facility is physically colocated at a cloud exchange, where you request a virtual cross-connect to Microsoft cloud.
 2. **Point-to-Point Ethernet:** Direct connection from your facility to Microsoft cloud.
 3. **Any-to-Any Networks:** Integrates your wide area network (WAN) with Azure.
