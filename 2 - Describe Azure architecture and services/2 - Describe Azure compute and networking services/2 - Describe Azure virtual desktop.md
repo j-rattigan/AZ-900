@@ -18,7 +18,7 @@
 - **Granular Role-Based Access Controls (RBAC)** help manage who can access what in AVD.
 - **Isolation of user sessions**: Keeps data secure by separating user apps and data from local hardware, especially important for sensitive data.
 
-## Multi-session Windows 10/11 Deployment
+# Multi-session Windows 10/11 Deployment
 #### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 - **Azure Virtual Desktop** allows **Windows 10/11 Enterprise multi-session**.
 - This is the **only client OS** that enables **multiple concurrent users** on a single VM.
