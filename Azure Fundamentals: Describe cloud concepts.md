@@ -76,7 +76,3 @@ The **AZ-900** exam is broken down into three major domain areas:
 
 #### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
 - Example: The **Azure Architecture** section will cover topics like **virtual machines** and **storage solutions**, while the **Management and Governance** section will discuss **resource access** and **cost management**.
-
----
-
-This breakdown helps make the learning process more accessible for someone with ADHD by focusing on key points and breaking the content into manageable chunks with color-coded definitions and examples.
