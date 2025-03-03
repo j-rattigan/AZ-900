@@ -16,7 +16,7 @@ Microsoft Cost Management helps monitor and control Azure spending by:
 
 ---
 
-## ![#1589F0](https://placehold.co/15x15/1589F0.png) **Examples/ Facts**  
+## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts**
 
 - **Scenario:** A company sets a budget of $10,000/month for Azure usage. If spending reaches 80%, a budget alert notifies the finance team.  
 - **Fact:** Enterprise Agreement customers get automatic credit alerts at 90% and 100% of their balance.  
