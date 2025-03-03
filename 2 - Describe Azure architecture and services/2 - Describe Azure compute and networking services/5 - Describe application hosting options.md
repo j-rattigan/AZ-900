@@ -1,61 +1,7 @@
 # Application Hosting Options in Azure
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-- **Virtual Machines (VMs)** and **Containers** are common hosting solutions on Azure.
-- **VMs** offer **maximum control** over the environment.
-- **Containers** provide **isolation** and **individual management** of hosting components.
-- **Azure App Service** is another robust hosting option for apps.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **Virtual Machines (VMs)**: Provide full control of the hosting environment, allowing you to configure it as needed.
-- **Containers**: Lightweight, isolated environments for running apps, offering flexibility and scalability.
-- **Azure App Service**: A fully managed platform for building, hosting, and deploying web apps, mobile apps, APIs, and background jobs.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- **Azure App Service** allows you to **build and host web apps** without worrying about managing the infrastructure.
-- Supports **automatic scaling** and **high availability**.
-- **Multiple languages** supported, including **.NET**, **Java**, **Node.js**, **PHP**, **Python**, and **Ruby**.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **App Service** automates deployment from **GitHub**, **Azure DevOps**, or any **Git repository**.
-- You can choose between **Windows** or **Linux** for hosting your apps.
-- App Service is a **fully managed platform**, so you focus on your app, not the infrastructure.
-
-# Types of Azure App Services
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-- **Web Apps**: Host websites and web applications with support for multiple languages and frameworks.
-- **API Apps**: Build and host RESTful APIs with full Swagger support.
-- **WebJobs**: Run background tasks like scripts or programs in the same environment as your app.
-- **Mobile Apps**: Build back-end services for mobile apps and integrate with cloud databases and social authentication.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **Web Apps**: Apps accessible via the web, using frameworks like **ASP.NET**, **Java**, or **Node.js**.
-- **API Apps**: Services that expose REST APIs, enabling integration with other apps or clients.
-- **WebJobs**: Background tasks running in the same context as your web apps or APIs.
-- **Mobile Apps**: Back-end services that support mobile apps like **iOS** and **Android**.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- **App Service** automatically handles **scaling**, **load balancing**, and **traffic management** for high availability.
-- You can secure **endpoints** and manage **infrastructure** with **minimal effort**.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- For **Web Apps**, you can use **ASP.NET**, **Java**, **Node.js**, and others to deploy your web-based solutions.
-- **API Apps** can be published to **Azure Marketplace** for others to consume.
-- **WebJobs** allow you to run **scripts** or **programs** as part of your application, such as scheduled background tasks.
-- **Mobile Apps** feature quick back-end setups for **iOS** and **Android**, including **authentication** and **push notifications**.
-
-# Benefits of Azure App Service
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-- **Integrated deployment** and **management** of web apps, APIs, and mobile apps.
-- **Scaling** to handle increased traffic, with built-in **load balancing** and **traffic management**.
-- **High availability** due to automatic scaling and availability features.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **Automatic Scaling**: The ability to adjust resources based on the demand, scaling up or down as needed.
-- **Load Balancing**: Distributing traffic across multiple resources to ensure high availability.
-- **Traffic Manager**: A tool for managing the distribution of traffic to different endpoints.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- **App Service** automatically handles scaling and load balancing to ensure your app can manage varying levels of traffic.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **Web Apps** on **App Service** are automatically scaled to meet traffic needs, with built-in **traffic manager** ensuring availability.
+| **Component**                    | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|-----------------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **Application Hosting Options in Azure** | VMs and Containers are common hosting solutions, offering control or isolation of the environment. Azure App Service is another powerful option for hosting apps. | 🔹 **VMs**: Provide full control of the environment, allowing for flexible configurations. <br> 🔹 **Containers**: Offer isolated environments, ideal for flexible and scalable app hosting. | 🔹 **App Service**: A fully managed platform to deploy and host apps without worrying about infrastructure. <br> 🔹 **Azure App Service**: Supports multiple languages, automatic scaling, and high availability. |
+| **Azure App Service**            | Azure App Service simplifies hosting for web apps, mobile apps, APIs, and background jobs without managing infrastructure. | 🔹 **Web Apps**: Host websites and web applications using various frameworks (ASP.NET, Java, Node.js). <br> 🔹 **API Apps**: Build and host RESTful APIs for integration with other apps. | 🔹 **App Service Features**: Automatic scaling, load balancing, and traffic management for high availability. <br> 🔹 **Deployment**: Supports automatic deployment from GitHub, Azure DevOps, and other Git repositories. |
+| **Types of Azure App Services**  | Azure App Service includes several types of hosting options for specific app needs. | 🔹 **Web Apps**: Host websites using frameworks like .NET, Java, or Node.js. <br> 🔹 **API Apps**: Host REST APIs. <br> 🔹 **WebJobs**: Run background tasks in the same environment as the app. <br> 🔹 **Mobile Apps**: Provide back-end services for mobile apps with cloud database integration. | 🔹 **Web Apps**: Perfect for deploying web-based solutions using frameworks like ASP.NET, Java, or Node.js. <br> 🔹 **API Apps**: Can be published to Azure Marketplace for others to consume. |
+| **Benefits of Azure App Service** | App Service simplifies deployment, scaling, and management for web apps, APIs, and mobile apps. | 🔹 **Automatic Scaling**: App Service scales automatically based on traffic demand. <br> 🔹 **Load Balancing**: Built-in load balancing ensures high availability. <br> 🔹 **Traffic Manager**: Helps distribute traffic across endpoints. | 🔹 **High Availability**: App Service provides built-in traffic management and scaling for optimal performance. <br> 🔹 **Scaling and Traffic Management**: Web Apps automatically scale based on traffic, ensuring smooth user experiences. |
