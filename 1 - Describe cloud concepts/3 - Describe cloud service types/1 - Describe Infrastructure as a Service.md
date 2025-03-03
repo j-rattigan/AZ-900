@@ -15,3 +15,6 @@
 
 # Software as a Service (SaaS)
 
+|                          | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|--------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **Software as a Service (SaaS)** | SaaS is the most complete cloud service model from a product perspective. <br> You essentially rent or use a fully developed application instead of building one. <br> It is the easiest model to deploy, requiring minimal technical expertise. | 🔹 **SaaS**: A cloud service model where the provider offers a ready-to-use application. <br> 🔹 **Shared Responsibility Model**: <br> - **Provider’s Responsibility**: Physical security, power, network connectivity, application development, and patching. <br> - **User’s Responsibility**: Data input, connected devices, and managing user access. | 🔹 **Examples of SaaS Applications**: <br> - **Email and Messaging**: (e.g., Gmail, Outlook) <br> - **Business Productivity Applications**: (e.g., Microsoft 365, Google Workspace) <br> - **Finance and Expense Tracking**: Software that manages financial data and expenses. |
