@@ -1,22 +1,12 @@
 # What is Microsoft Azure
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-- **Microsoft Azure** is an ever-expanding suite of cloud services that lets you build, manage, and deploy applications on a massive global network.
-- It is designed to help you meet current and future business challenges by offering a trusted, innovative cloud platform.
+|                          | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|--------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **What is Microsoft Azure** | Microsoft Azure is an ever-expanding suite of cloud services that lets you build, manage, and deploy applications on a massive global network. <br> It is designed to help you meet current and future business challenges by offering a trusted, innovative cloud platform. | 🔹 **Azure**: A comprehensive cloud platform from Microsoft offering over 100 services. <br> 🔹 **Cloud Services**: Internet-delivered computing, storage, AI, and analytics services. <br> 🔹 **Global Network**: A worldwide infrastructure of data centers that supports scalability and high availability. | 🔹 **Limitless Innovation**: Build intelligent apps with advanced technology and tools. <br> 🔹 **Unified Platform**: Seamlessly manage your infrastructure, data, analytics, and AI solutions. <br> 🔹 **Trusted and Secure**: Rely on a secure, responsibility-focused partner to power your business innovations. |
 
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **Azure:** A comprehensive cloud platform from Microsoft offering over 100 services.
-- **Cloud Services:** Internet-delivered computing, storage, AI, and analytics services.
-- **Global Network:** A worldwide infrastructure of data centers that supports scalability and high availability.
+---
 
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- **Limitless Innovation:** Build intelligent apps with advanced technology and tools.
-- **Unified Platform:** Seamlessly manage your infrastructure, data, analytics, and AI solutions.
-- **Trusted and Secure:** Rely on a secure, responsibility-focused partner to power your business innovations.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **What Azure Offers:**
-  - **Innovative Solutions:** From intelligent bots and mixed reality to AI and machine learning services.
-  - **Versatile Deployment:** Start by migrating existing applications to virtual machines, then expand to new cloud paradigms.
-  - **Scalable Storage:** Dynamically growing storage solutions to handle massive amounts of data.
-  - **Enhanced Functionality:** Azure services enable solutions that aren’t feasible without the power of the cloud.
+# Getting Started with Azure
+|                          | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|--------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **Get Started with Azure Accounts** | To use Azure services, you need an Azure subscription. <br> For Learn modules, a temporary subscription is provided in the Learn sandbox. <br> When working on your own applications, you must create an Azure account; this automatically creates a subscription. <br> You can create additional subscriptions (e.g., for development, marketing, sales) under one Azure account. | 🔹 **Azure Account**: Your registration for accessing Azure services. <br> 🔹 **Azure Subscription**: A container for Azure resources linked to your account. <br> 🔹 **Learn Sandbox**: A temporary subscription provided during Learn modules. <br> 🔹 **Cloud Solution Provider**: A partner offering managed-cloud solutions for Azure. | 🔹 **Azure Free Account Includes**: Free access to popular Azure products for 12 months. <br> A 30-day credit to try paid services. <br> Access to more than 25 always-free products. <br> **Requirements**: phone number, credit card (for identity verification only), and a Microsoft or GitHub account. <br> 🔹 **Azure Free Student Account**: Provides free access to certain Azure services for 12 months. <br> Offers $100 credit and free developer tools. <br> Can be signed up without a credit card. <br> 🔹 **Learn Sandbox**: Creates a temporary subscription to allow you to create and test Azure resources during a Learn module. <br> Automatically cleans up resources after module completion, so you don't incur any costs.
