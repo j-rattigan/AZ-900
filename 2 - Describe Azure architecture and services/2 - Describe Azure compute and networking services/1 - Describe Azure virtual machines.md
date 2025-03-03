@@ -1,72 +1,33 @@
+# Azure Virtual Machines
 
-# Azure Virtual Machines (VMs)
-
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
-**Azure Virtual Machines (VMs)** allow you to create and use VMs in the cloud, providing Infrastructure as a Service (IaaS). They give flexibility similar to a physical computer but without needing physical hardware.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**
-- **Infrastructure as a Service (IaaS)**: A cloud computing model that delivers virtualized computing resources over the internet.
-- **Virtual Machine (VM)**: A virtualized server that behaves like a physical computer but is hosted in the cloud.
-- **Image**: A pre-configured template used to quickly create a VM (can include OS, software, etc.).
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-VMs are ideal when you need:
-- **Control over OS**: Full customization of the operating system.
-- **Custom software**: Ability to run custom software in your VM.
-- **Custom hosting**: Ability to configure hosting settings to suit your needs.
-
-You still need to manage the software running on the VM, even though the hardware is handled by Azure.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- Use **preconfigured VM images** to quickly create VMs.
-- **Example**: An image could already have an OS and software like development tools or web hosting environments.
+This section provides an overview of Azure Virtual Machines (VMs), including key features, scaling options, and common use cases.
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
-You can **scale** VMs in Azure to meet the needs of your workload.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**
-- **Scale Sets**: Allows you to automatically manage and configure multiple identical VMs.
-- **Availability Sets**: Grouping VMs for high availability to avoid service interruption due to power or network failures.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- **Virtual Machine Scale Sets (VMSS)**: Automatically manage, configure, and scale VMs based on demand.  
-  **Example**: Azure automatically adjusts the number of VMs based on traffic or predefined schedules.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **Availability Sets**: Ensure that VMs are spread across multiple power and network sources to maintain service in case of failures.
+| **Component**              | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|----------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **Azure Virtual Machines** | VMs provide infrastructure as a service (IaaS) with a virtualized server, enabling full control over the OS and software. You can customize everything from the operating system to the applications running on the VM. | 🔹 **IaaS**: Azure VMs offer Infrastructure as a Service, giving flexibility in hosting and configurations. <br> 🔹 **Customization**: Total control over the OS, ability to run custom software and use custom configurations. | 🔹 **Use Cases**: Ideal for testing, development, or hosting applications in the cloud. <br> 🔹 **Lift and Shift**: Migrate physical servers to the cloud with minimal changes using Azure VMs. |
+| **Virtual Machine Scale Sets** | Virtual machine scale sets allow you to create and manage a group of identical, load-balanced VMs. The system automatically adjusts the number of VM instances based on demand or schedule. | 🔹 **VM Scale Sets**: Simplify managing multiple identical VMs in large-scale services. <br> 🔹 **Automatic Scaling**: Automatically increase or decrease the number of VMs based on demand. | 🔹 **Usage**: Ideal for large-scale services like big data, compute tasks, and container workloads. <br> 🔹 **Cost Efficiency**: Scale resources dynamically to handle fluctuating workloads. |
+| **Virtual Machine Availability Sets** | Availability sets ensure VMs are spread across multiple fault and update domains, preventing downtime during failures. | 🔹 **Fault Domain**: Distributes VMs across separate power sources and network switches. <br> 🔹 **Update Domain**: VMs are grouped for staggered maintenance, ensuring minimal service downtime. | 🔹 **High Availability**: Use availability sets to improve service reliability by reducing the impact of network or power failures. <br> 🔹 **No Extra Cost**: Availability sets come at no extra cost for configuration. |
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
-VMs are useful in many scenarios, from **testing** to **disaster recovery**.
+## Scaling Virtual Machines in Azure
 
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**
-- **Disaster Recovery**: The process of using cloud-based resources like VMs to recover critical applications after a failure.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-**Examples of when to use VMs**:
-1. **Testing & Development**: Easily create different OS and software configurations for testing purposes.
-2. **Running Apps in Cloud**: Economically run applications with fluctuating demand.
-3. **Extend Datacenter**: Move applications like SharePoint to the cloud for easier management.
-4. **Disaster Recovery**: Create VMs to recover applications in case of datacenter failure.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **Lift and Shift**: Move physical servers to the cloud by creating an image of the physical server and running it as a VM.
+| **Component**              | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|----------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **Scaling VMs**            | Azure allows both vertical and horizontal scaling for VMs. Vertical scaling adjusts the VM's resources (CPU, RAM), while horizontal scaling adds or removes instances. | 🔹 **Vertical Scaling**: Increase or decrease the resources of a single VM (CPU, RAM). <br> 🔹 **Horizontal Scaling**: Add or remove VMs in a scale set to adjust capacity. | 🔹 **Example**: During peak hours, scale up a VM for better performance. During off-peak hours, scale down to reduce costs. |
+| **Load Balancer Integration** | Scale sets automatically deploy a load balancer to balance traffic and optimize resource utilization across VM instances. | 🔹 **Load Balancer**: Automatically distributes traffic between VMs in a scale set. <br> 🔹 **Resource Optimization**: Ensures that the traffic is handled efficiently. | 🔹 **Benefit**: Automatically balances load and maintains service availability during scaling events. |
+| **Availability Sets and Scaling** | Combining availability sets with scaling ensures that workloads are resilient to failures and automatically adjusted for demand. | 🔹 **Resilience**: VMs in availability sets are protected from single points of failure. <br> 🔹 **Scaling Flexibility**: Integrates with scale sets for dynamic scaling. | 🔹 **Usage**: Commonly used in production environments where high availability is critical. |
 
 ---
 
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**  
-When provisioning a VM, you also choose **resources** for that VM.
+## Common Use Cases for VMs
 
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key Terms and Definitions**
-- **VM Resources**: Include VM size (CPU cores, RAM), storage (HDD, SSD), and networking settings (IP addresses, ports).
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-Choosing the right resources ensures your VM is tailored to your needs.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **Example**: You can select the number of CPU cores or amount of RAM based on the workload the VM will handle.
+| **Component**              | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|----------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **Testing and Development** | Azure VMs provide a fast and cost-effective way to create different OS and application configurations for testing. | 🔹 **VMs for Testing**: Quickly deploy multiple configurations to test applications or services. <br> 🔹 **Cost-Effective**: VMs can be easily created and deleted as needed. | 🔹 **Example**: Developers can quickly spin up VMs for testing different configurations without maintaining physical hardware. |
+| **Disaster Recovery**      | VMs are a popular choice for disaster recovery strategies, allowing businesses to replicate their infrastructure in the cloud. | 🔹 **IaaS for DR**: Azure VMs support rapid failover and recovery in case of primary datacenter failure. <br> 🔹 **Replication**: Replicate applications and services to Azure for disaster recovery. | 🔹 **Usage**: In the event of a disaster, VMs in Azure can take over the workload while the on-premises systems recover. |
+| **Extending Datacenter to the Cloud** | VMs can be added to an Azure virtual network, allowing you to extend your on-premises network into the cloud. | 🔹 **Hybrid Cloud**: Azure VMs allow seamless extension of on-premises infrastructure to the cloud. <br> 🔹 **Virtual Networking**: VMs can interact with other cloud services through virtual networking. | 🔹 **Example**: Companies can run applications like SharePoint on VMs in Azure, connecting to on-premises services seamlessly. |
 
 ---
