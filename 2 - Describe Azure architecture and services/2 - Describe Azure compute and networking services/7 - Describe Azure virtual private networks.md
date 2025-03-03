@@ -1,42 +1,7 @@
-# **Azure Virtual Private Networks (VPNs)**  
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-A **VPN** uses an encrypted tunnel within another network, typically the public internet. It connects **trusted private networks** securely over an **untrusted** network to safely share sensitive information.
+# Azure Virtual Private Networks (VPNs)
 
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **VPN Gateway**: A virtual network gateway deployed in a dedicated subnet that enables connectivity between on-premises data centers, devices, and virtual networks.
-- **Preshared Key**: A shared secret used for authentication in both **policy-based** and **route-based** VPNs.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- VPNs are typically used to encrypt traffic to prevent eavesdropping.
-- There are **two types of VPNs** in Azure: **policy-based** and **route-based**.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **Policy-based VPN**: Static IP addresses define which packets are encrypted.
-- **Route-based VPN**: Uses IP routing to decide how to route packets based on routing protocols.
-
-# **VPN Gateway Connectivity**
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-- **Site-to-Site**: Connects on-premises datacenters to virtual networks.
-- **Point-to-Site**: Connects individual devices to virtual networks.
-- **Network-to-Network**: Connects virtual networks to each other.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **Active/Standby**: A configuration where one VPN instance is active, and another is on standby. When disruptions happen, the standby instance takes over.
-- **Active/Active**: A configuration where both instances are active and provide redundancy with separate IPs.
-
-#### ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Additional but Important**
-- Active/standby provides automatic failover without user intervention.
-- Active/active supports **BGP routing protocol** and offers better availability.
-
-#### ![#f0e15d](https://placehold.co/15x15/f0e15d/f0e15d.png) **Supporting Details/Examples**
-- **ExpressRoute failover**: In case of **ExpressRoute** issues, a **VPN gateway** can serve as a backup using the internet to ensure continuous connectivity.
-- **Zone-redundant gateways**: In availability zones, VPN and ExpressRoute gateways are deployed in multiple zones for **resiliency** and **scalability**.
-
-# **High-Availability VPN Configurations**
-#### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
-1. **Active/Standby**: One active gateway and one standby for automatic failover.
-2. **Active/Active**: Multiple active gateways, allowing for **redundancy** and **better availability**.
-
-#### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Key terms and definitions**
-- **BGP**: **Border Gateway Protocol**, used in active/active VPN gateways to provide dynamic routing.
-- **Zone-redundant gateways**: Gateways deployed across different Azure availability zones to ensure high availability and fault tolerance.
+| **Section**                           | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important** | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Supporting Details** | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts** |
+|---------------------------------------|----------------------------------|-----------------------------------------|----------------------------------------------|
+| **Azure VPN Overview**                | A VPN uses an encrypted tunnel within another network, typically the public internet. It connects trusted private networks securely over an untrusted network to safely share sensitive information. | 🔹 **VPN Gateway**: A virtual network gateway deployed in a dedicated subnet that enables connectivity between on-premises data centers, devices, and virtual networks. <br> 🔹 **Preshared Key**: A shared secret used for authentication in both policy-based and route-based VPNs. | 🔹 VPNs are typically used to encrypt traffic to prevent eavesdropping. <br> 🔹 There are two types of VPNs in Azure: policy-based and route-based. |
+| **VPN Gateway Connectivity**          | 🔹 **Site-to-Site**: Connects on-premises datacenters to virtual networks. <br> 🔹 **Point-to-Site**: Connects individual devices to virtual networks. <br> 🔹 **Network-to-Network**: Connects virtual networks to each other. | 🔹 **Active/Standby**: A configuration where one VPN instance is active, and another is on standby. When disruptions happen, the standby instance takes over. <br> 🔹 **Active/Active**: A configuration where both instances are active and provide redundancy with separate IPs. | 🔹 **Active/Standby** provides automatic failover without user intervention. <br> 🔹 **Active/Active** supports BGP routing protocol and offers better availability. |
+| **High-Availability VPN Configurations** | 🔹 **Active/Standby**: One active gateway and one standby for automatic failover. <br> 🔹 **Active/Active**: Multiple active gateways, allowing for redundancy and better availability. | 🔹 **BGP (Border Gateway Protocol)**: Used in active/active VPN gateways to provide dynamic routing. <br> 🔹 **Zone-redundant gateways**: Gateways deployed across different Azure availability zones to ensure high availability and fault tolerance. | 🔹 **ExpressRoute failover**: In case of ExpressRoute issues, a VPN gateway can serve as a backup using the internet to ensure continuous connectivity. <br> 🔹 **Zone-redundant gateways**: In availability zones, VPN and ExpressRoute gateways are deployed in multiple zones for resiliency and scalability. |
