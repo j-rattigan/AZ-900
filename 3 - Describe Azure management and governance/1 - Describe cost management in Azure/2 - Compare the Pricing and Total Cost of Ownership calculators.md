@@ -21,7 +21,7 @@ Each tool serves a different purpose, and understanding both helps in planning A
 
 ---
 
-## ![#1589F0](https://placehold.co/15x15/1589F0.png) **Examples/ Facts**
+## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) **Examples/ Facts**
 
 - **Pricing Calculator Use Case:** A company estimates costs for hosting a web application by selecting VM sizes, storage type, and bandwidth needs.  
 - **TCO Calculator Use Case:** A business with 50 on-prem servers calculates potential savings by migrating them to Azure.  
