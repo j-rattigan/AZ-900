@@ -2,9 +2,10 @@
 
 ## ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) **Important**
 - **Azure** provides multiple tools for managing and interacting with resources:  
-  - **Azure Portal**  
+  - **Azure Portal**
+  - **Azure Cloud Shell**
   - **Azure PowerShell**  
-  - **Azure Command Line Interface (CLI)**  
+  - **Azure Command Line Interface (CLI)**
 
 - Each tool has unique features, but they all provide access to Azure resources for management, configuration, and automation.  
 
