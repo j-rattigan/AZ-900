@@ -9,3 +9,7 @@
 #### Describe cloud concepts (25–30%)
 #### Describe Azure architecture and services (35–40%)
 #### Describe Azure management and governance (30–35%)
+
+## Other Resources
+-https://www.youtube.com/watch?v=5abffC-K40c&t=3453s
+- https://certification.kananinirav.com/az-900-microsoft-azure-fundamentals/practice-exam/exams.html
